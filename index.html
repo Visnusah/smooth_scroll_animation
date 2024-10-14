@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LenisFolio</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.14/dist/lenis.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .grid > div {
+        grid-row: var(--r);
+        grid-column: var(--c);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-full bg-zinc-900">
+      <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+        <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 7">
+          <img src="./image/image1.jpg" alt="image1" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 1">
+          <img src="./image/image20.jpg" alt="image2" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 5">
+          <img src="./image/image3.jpg" alt="image3" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 3">
+          <img src="./image/image4.jpg" alt="image4" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 4">
+          <img src="./image/image5.jpg" alt="image5" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 6">
+          <img src="./image/image6.jpg" alt="image6" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 7">
+          <img src="./image/image7.jpg" alt="image7" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 8">
+          <img src="./image/image8.jpg" alt="image8" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 2">
+          <img src="./image/image9.jpg" alt="image9" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 4">
+          <img src="./image/image10.jpg" alt="image10" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 6">
+          <img src="./image/image11.jpg" alt="image11" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 8">
+          <img src="./image/image12.jpg" alt="image12" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 3">
+          <img src="./image/image13.jpg" alt="image13" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 5">
+          <img src="./image/image14.jpg" alt="image14" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 7">
+          <img src="./image/image15.jpg" alt="image15" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 1">
+          <img src="./image/image16.jpg" alt="image16" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 3">
+          <img src="./image/image17.jpg" alt="image17" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 5">
+          <img src="./image/image18.jpg" alt="image18" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 7">
+          <img src="./image/image19.jpg" alt="image19" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 2">
+          <img src="./image/image20.jpg" alt="image20" />
+        </div>
+      </div>
+      <div
+        class="fixed top-0 font-['Halvetica_Now_Display'] left-0 w-full h-full flex flex-col items-center justify-center text-white"
+      >
+        <h1 class="text-8xl uppercase mb-4">Hello Concise DEV<sup>®</sup></h1>
+        <h2 class="text-4xl">Easy and fast</h2>
+      </div>
+      <div
+        class="w-full h-screen bg-[#D6D6D6] flex items-center justify-center mx-auto py-96 relative z-[800] text-center"
+      >
+        <p
+          class="text-black leading-[4.2rem] text-5xl w-3/4 font-regular text-left"
+        >
+          Concise Dev is a leading web development brand known for its easy and
+          fast solutions. We specialize in creating efficient and effective web
+          applications that meet the needs of our clients. Our team of experts
+          is dedicated to delivering high-quality services that help businesses
+          succeed online.®
+        </p>
+      </div>
+      <footer
+        class="fixed bottom-0 left-1/4 w-2/4 bg-zinc-800 text-white text-center py-4 rounded-lg"
+        style="border-radius: 8px"
+      >
+        <p>Author: Kamlesh Sah</p>
+        <p>
+          Contact:
+          <a href="mailto:info@sahkamlesh.com.np" class="text-blue-400"
+            >info@sahkamlesh.com.np</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
